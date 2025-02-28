@@ -11,21 +11,38 @@ header {
 
 /*Texto do cabeçalho*/
 header h1 {
-    color: aliceblue;
+    color: #d87b01;
     font-size: 30px;
     font-family: cursive;
 }
-
+/* Não utilizar
 header h4 {
-    color: aliceblue;
+    color: #d87b01;
     font-size: 14px;
     font-family: cursive;
-}
+} */
 
 
 /*Imagem do cabeçalho*/
 header img {
     width: 110px;
+}
+
+ /*Tirar enfeites da lista*/
+.lista-header {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+/*Tirar azulado do link-ancora*/
+.lista-header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-header li{
+
+    font-family: cursive;
 }
 
 /*Primeira sessão*/
@@ -75,7 +92,7 @@ header img {
 /*Botão da sessão baiao*/
 
 .baiao button {
-    background-color: rgba(128, 128, 128, 0.219);
+    background-color: rgba(0, 0, 0, 0.37);
     font-family: cursive;
     padding: 10px;
     border-radius: 12px;
@@ -83,6 +100,8 @@ header img {
     font-size: 28px;
     width: 300px;
     height: 98px;
+    color: #d87b01;
+    border-color: #d87b01;
 }
 
 /*Rodapé*/
