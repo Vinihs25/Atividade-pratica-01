@@ -1,0 +1,108 @@
+/*Cabeçalho*/
+
+header {
+    background-color: #020304;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+/*Texto do cabeçalho*/
+header h1 {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+header h4 {
+    color: aliceblue;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+
+/*Imagem do cabeçalho*/
+header img {
+    width: 110px;
+}
+
+/*Primeira sessão*/
+.moqueca {
+    padding: 150px;
+    background-color: #541f14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Paragrafos class moqueca*/
+.moqueca p {
+    font-family: cursive;
+    font-size: 17px;
+    color: antiquewhite;
+}
+
+/*Segunda sessão acaraje*/
+
+.acaraje {
+    padding: 150px;
+    background-color: #cc9e61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Paragrafo sessão acaraje*/
+.acaraje p {
+    font-family: cursive;
+    font-size: 17px;
+}
+
+/*Terceira sessão baiao*/
+.baiao {
+    padding: 200px;
+    background-image: url(Imagens/baiaodedois.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Botão da sessão baiao*/
+
+.baiao button {
+    background-color: rgba(128, 128, 128, 0.219);
+    font-family: cursive;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 28px;
+    width: 300px;
+    height: 98px;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #938172;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+footer details summary {
+    font-family: cursive;
+}
