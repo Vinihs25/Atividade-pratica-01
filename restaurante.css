@@ -15,13 +15,6 @@ header h1 {
     font-size: 30px;
     font-family: cursive;
 }
-/* Não utilizar
-header h4 {
-    color: #d87b01;
-    font-size: 14px;
-    font-family: cursive;
-} */
-
 
 /*Imagem do cabeçalho*/
 header img {
@@ -78,6 +71,18 @@ header img {
     font-family: cursive;
     font-size: 17px;
 }
+ /*SPAN PARAGRAFO ACARJE*/
+span{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+/*ANCORA SPAN ACARAJE*/
+a{
+    text-decoration: none;
+}
+
+
+
 
 /*Terceira sessão baiao*/
 .baiao {
