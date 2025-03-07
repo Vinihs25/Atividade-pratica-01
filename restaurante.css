@@ -89,6 +89,7 @@ a{
     padding: 200px;
     background-image: url(Imagens/baiaodedois.png);
     background-size: cover;
+    background-attachment: fixed; /*Para fixar a imagem no fundo do site e o site rolar por ela*/
     display: flex;
     align-items: center;
     justify-content: center;
