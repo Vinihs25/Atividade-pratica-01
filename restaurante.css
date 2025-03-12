@@ -110,6 +110,47 @@ a{
     border-color: #d87b01;
 }
 
+
+
+.divs-cx{
+
+    padding: 200px;
+    background-color: #541f14;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.divs-cx div{
+    width: 320px;
+    height: 320px;
+    background-color: #020304;
+    padding: 15px;
+    text-align: center;
+}
+
+.div-01{
+    color: antiquewhite;
+    font-family: cursive;
+}
+
+.div-02{
+    background-image: url(Imagens/Carne-de-sol-com-mandioca-\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.div-03 img{
+    width: 135px;
+    height: 108px;
+}
+
+.div-03 p{
+    font-family: cursive;
+    color: antiquewhite;
+}
+
+
+
 /*Rodapé*/
 footer {
     background-color: #938172;
